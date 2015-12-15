@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Code
+
+# Model Form Field configuration
+form: $/brenodouglas/shortcode/models/code/fields.yaml
+
+# Model Class name
+modelClass: BrenoDouglas\Shortcode\Models\Code
+
+# Default redirect location
+defaultRedirect: brenodouglas/shortcode/code
+
+# Create page
+create:
+    title: Create Code
+    redirect: brenodouglas/shortcode/code/update/:id
+    redirectClose: brenodouglas/shortcode/code
+
+# Update page
+update:
+    title: Edit Code
+    redirect: brenodouglas/shortcode/code
+    redirectClose: brenodouglas/shortcode/code
+
+# Preview page
+preview:
+    title: Preview Code

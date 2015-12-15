@@ -1,0 +1,4 @@
+1.0.1: 
+    - First version of Shortcode
+    - create_codes_table.php
+    - seed_codes_table.php

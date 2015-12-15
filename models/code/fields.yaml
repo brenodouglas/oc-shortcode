@@ -1,0 +1,14 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    identity:
+        label: brenodouglas.shortcode::lang.form.identity
+        required: true
+    content:
+        label: brenodouglas.shortcode::lang.form.content
+        type: richeditor
+        size: huge
+        mode: split
+        required: true
